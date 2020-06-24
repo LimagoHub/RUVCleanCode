@@ -1,6 +1,8 @@
 package de.ruv.spiele.nimmspiel.spieler;
 
-public abstract class AbstractNimmspielSpieler implements NimmspielSpieler{
+import de.ruv.spiele.player.Player;
+
+public abstract class AbstractNimmspielSpieler implements Player<Integer, Integer>{
 	
 	private String name = this.getClass().getSimpleName();
 

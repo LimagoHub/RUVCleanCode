@@ -12,7 +12,7 @@ public class ComputerPlayer extends AbstractNimmspielSpieler {
 	}
 
 	@Override
-	public int doTurn(int steine) {
+	public Integer doTurn(Integer steine) {
 		final int zuege[] = {3,1,1,2};
 		
 		int zug = zuege[steine % 4];
